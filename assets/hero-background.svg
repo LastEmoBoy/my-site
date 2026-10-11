@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="850" viewBox="0 0 1600 850" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <linearGradient id="wall" x1="0" y1="0" x2="1" y2=".55"><stop stop-color="#f9fbfd"/><stop offset=".58" stop-color="#edf3f7"/><stop offset="1" stop-color="#ccd6de"/></linearGradient>
+  <linearGradient id="silver" x1="0" y1="0" x2=".75" y2="1"><stop stop-color="#ffffff"/><stop offset=".23" stop-color="#d3dce3"/><stop offset=".5" stop-color="#8798a6"/><stop offset=".66" stop-color="#ecf3f6"/><stop offset="1" stop-color="#7f909d"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2=".3" y2="1"><stop stop-color="#c7d2db"/><stop offset=".5" stop-color="#657782"/><stop offset="1" stop-color="#dfe7ec"/></linearGradient>
+  <linearGradient id="shiny" x1="0" y1="0" x2="1" y2=".7"><stop stop-color="#e5ecf2"/><stop offset=".32" stop-color="#a2b1bd"/><stop offset=".55" stop-color="#e2e9ee"/><stop offset="1" stop-color="#627681"/></linearGradient>
+  <linearGradient id="darkhole" x1=".1" y1="0" x2=".7" y2="1"><stop stop-color="#3c515e"/><stop offset=".8" stop-color="#8498a5"/><stop offset="1" stop-color="#e2e9ee"/></linearGradient>
+  <linearGradient id="fades" x1="0" x2="1" y1="0" y2="0"><stop stop-color="#f9fbfd" stop-opacity="1"/><stop offset=".45" stop-color="#f9fbfd" stop-opacity=".83"/><stop offset=".62" stop-color="#f9fbfd" stop-opacity=".06"/><stop offset="1" stop-color="#f9fbfd" stop-opacity="0"/></linearGradient>
+  <pattern id="hair" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0H8" stroke="#fff" stroke-opacity=".22" stroke-width=".45"/></pattern>
+  <filter id="shadow" x="-30%" y="-30%" width="170%" height="170%"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+<rect width="1600" height="850" fill="url(#wall)"/>
+<path d="M720 0H1600V850H720Z" fill="#f5f8fa" opacity=".3"/>
+<ellipse cx="1250" cy="726" rx="510" ry="85" fill="#31485a" opacity=".24" filter="url(#shadow)"/>
+<!-- reflective machined plates across a clean worktable -->
+<g transform="translate(895 222) rotate(-12)">
+ <rect x="0" y="39" width="575" height="335" rx="17" fill="#5c7080" opacity=".65"/>
+ <rect x="0" y="0" width="575" height="338" rx="16" fill="url(#silver)" stroke="#d6dfe5" stroke-width="4"/>
+ <rect x="0" y="0" width="575" height="338" rx="16" fill="url(#hair)" opacity=".52"/>
+ <rect x="40" y="40" width="250" height="110" rx="10" fill="url(#darkhole)" stroke="#c5d2da" stroke-width="7"/>
+ <rect x="50" y="50" width="230" height="92" rx="6" fill="#95a5ae" opacity=".32"/>
+ <rect x="345" y="42" width="160" height="88" rx="9" fill="url(#darkhole)" stroke="#dde7ec" stroke-width="8"/>
+ <rect x="355" y="51" width="142" height="69" rx="5" fill="#9dacb4" opacity=".48"/>
+ <circle cx="425" cy="238" r="68" fill="url(#darkhole)" stroke="#dae5eb" stroke-width="18"/>
+ <circle cx="425" cy="238" r="37" fill="#637783" stroke="#b2c5ce" stroke-width="4"/>
+ <path d="M35 215H273V298H35Z" fill="url(#shiny)" stroke="#dde6eb" stroke-width="5"/>
+ <g fill="#637986" stroke="#e5edf2" stroke-width="5"><circle cx="39" cy="28" r="11"/><circle cx="534" cy="26" r="11"/><circle cx="35" cy="312" r="11"/><circle cx="542" cy="307" r="11"/><circle cx="306" cy="80" r="11"/><circle cx="307" cy="251" r="11"/></g>
+</g>
+<!-- aluminum profiles -->
+<g transform="translate(1035 606) rotate(-18)">
+  <rect x="0" y="29" width="430" height="80" rx="4" fill="#607786"/>
+  <rect x="0" y="0" width="430" height="80" rx="4" fill="url(#shiny)" stroke="#d4dee5" stroke-width="3"/>
+  <path d="M14 14H415M14 26H415M14 45H415M14 58H415" stroke="#f4f8fb" stroke-opacity=".65" stroke-width="2"/>
+  <path d="M0 79H430V109H0Z" fill="url(#edge)"/>
+</g>
+<g transform="translate(665 638) rotate(-13)">
+  <rect x="0" y="25" width="435" height="82" fill="#768997"/>
+  <rect x="0" y="0" width="435" height="84" rx="5" fill="url(#silver)" stroke="#dce5eb" stroke-width="3"/>
+  <g fill="#516875" stroke="#e1e9ef" stroke-width="6"><circle cx="52" cy="40" r="12"/><circle cx="128" cy="40" r="12"/><circle cx="205" cy="40" r="12"/><circle cx="283" cy="40" r="12"/><circle cx="362" cy="40" r="12"/></g>
+  <path d="M0 82H435V108H0Z" fill="url(#edge)"/>
+</g>
+<rect width="1600" height="850" fill="url(#fades)"/>
+</svg>
